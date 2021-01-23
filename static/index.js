@@ -1,0 +1,1 @@
+console.log("JS file from Static folder.")
