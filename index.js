@@ -6,3 +6,7 @@ let app = express();
 app.listen(port, () => {
     console.log(`App is listening on port: ${port}`);
 })
+
+app.get('/', (req, res) => {
+    res.end('Hello from Home Page!')
+})
